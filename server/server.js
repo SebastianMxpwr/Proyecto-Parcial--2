@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 app.get('/', function(req, res){
-    res.send('<h1>Bienvenido a mi servidor rest (localhost)</h1>');
+    res.send('<h1>Bienvenido a mi servidor rest</h1>');
 })
 
 app.use(require('./routes/usuario'));
